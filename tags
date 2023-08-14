@@ -9,6 +9,7 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
+0	ch02-1/tsconfig.json	/^  "include": ["src\/**\/*"]$/;"	s	array:include
 @cspotcode/source-map-support	ch02-1/package-lock.json	/^        "@cspotcode\/source-map-support": "^0.8.0",$/;"	s	object:dependencies.ts-node.requires
 @cspotcode/source-map-support	ch02-1/package-lock.json	/^        "@cspotcode\/source-map-support": "^0.8.0",$/;"	s	object:packages.node_modules/ts-node.dependencies
 @cspotcode/source-map-support	ch02-1/package-lock.json	/^    "@cspotcode\/source-map-support": {$/;"	o	object:dependencies
@@ -53,6 +54,8 @@ author	ch02-1/package.json	/^  "author": "",$/;"	s
 bin	ch02-1/package-lock.json	/^      "bin": {$/;"	o	object:packages.node_modules/acorn
 bin	ch02-1/package-lock.json	/^      "bin": {$/;"	o	object:packages.node_modules/ts-node
 bin	ch02-1/package-lock.json	/^      "bin": {$/;"	o	object:packages.node_modules/typescript
+build	ch02-1/package.json	/^    "build": "tsc && node dist"$/;"	s	object:scripts
+compilerOptions	ch02-1/tsconfig.json	/^  "compilerOptions": {$/;"	o
 create-require	ch02-1/package-lock.json	/^        "create-require": "^1.1.0",$/;"	s	object:dependencies.ts-node.requires
 create-require	ch02-1/package-lock.json	/^        "create-require": "^1.1.0",$/;"	s	object:packages.node_modules/ts-node.dependencies
 create-require	ch02-1/package-lock.json	/^    "create-require": {$/;"	o	object:dependencies
@@ -99,6 +102,7 @@ dev	ch02-1/package-lock.json	/^      "dev": true,$/;"	b	object:packages.node_mod
 dev	ch02-1/package-lock.json	/^      "dev": true,$/;"	b	object:packages.node_modules/ts-node
 dev	ch02-1/package-lock.json	/^      "dev": true,$/;"	b	object:packages.node_modules/typescript
 dev	ch02-1/package-lock.json	/^      "dev": true,$/;"	b	object:packages.node_modules/yn
+dev	ch02-1/package.json	/^    "dev" : "ts-node src",$/;"	s	object:scripts
 devDependencies	ch02-1/package-lock.json	/^      "devDependencies": {$/;"	o	object:packages.
 devDependencies	ch02-1/package.json	/^  "devDependencies": {$/;"	o
 diff	ch02-1/package-lock.json	/^        "diff": "^4.0.1",$/;"	s	object:dependencies.ts-node.requires
@@ -111,6 +115,7 @@ engines	ch02-1/package-lock.json	/^      "engines": {$/;"	o	object:packages.node
 engines	ch02-1/package-lock.json	/^      "engines": {$/;"	o	object:packages.node_modules/diff
 engines	ch02-1/package-lock.json	/^      "engines": {$/;"	o	object:packages.node_modules/typescript
 engines	ch02-1/package-lock.json	/^      "engines": {$/;"	o	object:packages.node_modules/yn
+include	ch02-1/tsconfig.json	/^  "include": ["src\/**\/*"]$/;"	a
 integrity	ch02-1/package-lock.json	/^      "integrity": "sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5Wquqfav/;"	s	object:dependencies.@jridgewell/trace-mapping
 integrity	ch02-1/package-lock.json	/^      "integrity": "sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5Wquqfav/;"	s	object:packages.node_modules/@jridgewell/trace-mapping
 integrity	ch02-1/package-lock.json	/^      "integrity": "sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBp/;"	s	object:dependencies.arg
@@ -153,10 +158,11 @@ keywords	ch02-1/package.json	/^  "keywords": [],$/;"	a
 license	ch02-1/package-lock.json	/^      "license": "ISC",$/;"	s	object:packages.
 license	ch02-1/package.json	/^  "license": "ISC",$/;"	s
 lockfileVersion	ch02-1/package-lock.json	/^  "lockfileVersion": 2,$/;"	n
-main	ch02-1/package.json	/^  "main": "index.js",$/;"	s
+main	ch02-1/package.json	/^  "main": "src\/index.js",$/;"	s
 make-error	ch02-1/package-lock.json	/^        "make-error": "^1.1.1",$/;"	s	object:dependencies.ts-node.requires
 make-error	ch02-1/package-lock.json	/^        "make-error": "^1.1.1",$/;"	s	object:packages.node_modules/ts-node.dependencies
 make-error	ch02-1/package-lock.json	/^    "make-error": {$/;"	o	object:dependencies
+makePerson	ch02-1/src/utils/makePerson.ts	/^export function makePerson(name: string, age: number) {$/;"	f
 name	ch02-1/package-lock.json	/^      "name": "ch02-1",$/;"	s	object:packages.
 name	ch02-1/package-lock.json	/^  "name": "ch02-1",$/;"	s
 name	ch02-1/package.json	/^  "name": "ch02-1",$/;"	s
@@ -237,7 +243,7 @@ resolved	ch02-1/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.
 resolved	ch02-1/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/yn\/-\/yn-3.1.1.tgz",$/;"	s	object:packages.node_modules/yn
 scripts	ch02-1/package.json	/^  "scripts": {$/;"	o
 study_ts	README.md	/^# study_ts$/;"	t
-test	ch02-1/package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1"$/;"	s	object:scripts
+testMakePerson	ch02-1/src/utils/makePerson.ts	/^export function testMakePerson() {$/;"	f
 ts-node	ch02-1/package-lock.json	/^        "ts-node": "^10.9.1",$/;"	s	object:packages..devDependencies
 ts-node	ch02-1/package-lock.json	/^        "ts-node": "dist\/bin.js",$/;"	s	object:packages.node_modules/ts-node.bin
 ts-node	ch02-1/package-lock.json	/^    "ts-node": {$/;"	o	object:dependencies
