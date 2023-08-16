@@ -268,7 +268,6 @@ engines	ch02-2/package-lock.json	/^      "engines": {$/;"	o	object:packages.node
 enumerable	ch02-2/dist/index.js	/^      desc = { enumerable: true, get: function() { return m[k]; } };$/;"	p	class:AnonymousFunctioncee1b0660100.desc
 funding	ch02-2/package-lock.json	/^      "funding": {$/;"	o	object:packages.node_modules/ramda
 great	hello.js	/^function great(person, date) {$/;"	f
-great	hello.ts	/^function great(person: string, date: Date) {$/;"	f
 include	ch02-1/tsconfig.json	/^  "include": ["src\/**\/*"]$/;"	a
 include	ch02-2/tsconfig.json	/^  "include": ["src\/**\/*"]$/;"	a
 integrity	ch02-1/package-lock.json	/^      "integrity": "sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5Wquqfav/;"	s	object:dependencies.@jridgewell/trace-mapping
