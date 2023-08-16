@@ -1,5 +1,7 @@
-function great(person: string, date: Date) {
-    console.log(`Hello ${person}, today is ${date}!`);
+"use strict";
+
+function great(person, date) {
+    console.log("Hello ".concat(person, ", today is ").concat(date.toDateString(), "!"));
 }
 
 great("Brendan", new Date());
